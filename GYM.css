@@ -1,0 +1,844 @@
+
+/* NAVBAR */
+@font-face {
+    font-family: m2;
+    src: url(./Fonts/CarterOne-Regular.ttf)
+}
+@font-face {
+    font-family: m3;
+    src: url(./Fonts/Dash-Horizon-Demo.otf);
+}
+@font-face {
+    font-family: M1;
+    src: url(./Fonts/False.ttf);
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+.navbar-brand{    display: flex;
+    align-items: center;}
+.navbar{background-color: black;}
+.navbar a{ color: white; transition: 0.3s;}
+.me-auto{    margin-left: auto;
+margin-right: auto!important;}
+.navbar a:hover{color: yellow;}
+
+.dropdown-menu a{color: black;}
+
+
+/* MID SECTION */
+
+.bg{    background-image: url(https://images4.alphacoders.com/805/805233.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; width: 100%;
+padding-top: 120px;
+padding-bottom: 120px;
+padding: 150px;}
+
+
+.mid-txt{
+    padding-top: 50px;
+}
+.mid-txt h2{font-size: 120px;
+    font-family: M1;-webkit-text-stroke: 1px white; color: transparent;}
+
+.mid-txt h1{font-size: 120px; transform: 0.3s;font-family: M1;-webkit-text-stroke: 1px white;
+color: transparent;}
+
+.BS{display: flex; gap: 20px;}
+.DN{display: flex; gap: 20px;}
+
+.BM{
+    display: flex; gap: 20px;}S
+
+/* BTNS */
+
+.btns{display: flex;
+gap: 20px;}
+
+#btn-JOIN{background-color: gold;
+    color: white;
+    border-radius: 16px;
+    padding: 16px;
+    padding-right: 70px;
+    padding-left: 70px;
+    transition: 0.3s;
+    border: none;
+}
+
+#btn-Watch a{text-decoration: none;
+color: white;}
+#btn-Watch{background-color: transparent;
+    color: white;
+    border-radius: 16px;
+    padding: 16px;
+    padding-right: 70px;
+    padding-left: 70px;
+    border: 1px solid gold;
+transition:0.3s;}
+#btn-Watch:hover{background-color: gold;}
+
+/* HOVER HERE */
+#Be:hover{color: gold;}
+#Be{transition: 0.3s;}
+#ST:hover{color: white;}
+#ST{transition: 0.3s;}
+#DN{transition: 0.3s;}
+#HW{transition: 0.3s;}
+#DN:hover{color: white;}
+#HW:hover{color: gold;}
+/* CHARTS */
+
+.charts{text-align: center;
+display: flex;
+justify-content: right; gap: 40px;
+padding-top: 39px;}
+
+.n1{border-right: 1px solid white; padding-right: 50px;
+border-radius: 12px;
+transition: 0.4s;}
+.n1:hover{background-color: gold;
+    border-right: 10px solid gold;
+}
+.rw2{
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+/* SERVICES*/
+.services{display: flex;
+justify-content: space-around;
+padding: 50px;
+background-color: rgb(38, 38, 38);
+color: white;box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+transition: transform 0.3s ease, box-shadow 0.3s ease;;
+}
+
+.grntee{display: flex; gap: 10px;}
+.lgo{font-size: 30px;
+    color: gold;
+}
+.vertical{display: flex;
+flex-direction: column;  align-items: center;}
+.rw3{display: flex; gap: 150px;}
+
+
+/* WHY CHOOSE US */
+
+.Benefits{
+    background-image: url(https://trumpwallpapers.com/wp-content/uploads/Workout-Wallpaper-02-1920-x-1197.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 100px;
+    padding-bottom: 61px;
+    transition: 0.5s;
+}
+
+.text-bg{
+    padding: 33px;
+    border-radius: 36px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;}
+
+.txt-1{display: flex;
+gap: 20px;}
+
+#Ylw{color: gold;}
+#White{color: white;}
+.consultation{
+    display: flex;
+}
+#CON{font-size: 60px;
+color: gold;}
+.consultation{display: flex;
+gap: 20px; color: white;}
+
+/* CSS for hiding elements initially */
+.text-bg .consultation {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* CSS for showing elements with the slide-in animation */
+.text-bg .consultation.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.TRAINERS-BG{box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+background-image: url(https://trumpwallpapers.com/wp-content/uploads/Workout-Wallpaper-05-1599-x-997.jpg);
+ padding: 50px;
+padding-top: 13%;
+padding-bottom: 13%;
+background-repeat: no-repeat;
+background-size: cover;}
+.TRAINERS-TXT{
+font-family: m3;
+border-radius: 20px;
+background-color: #1e1e1eb5;
+padding: 28px;}
+.Trainer-box{ width: 800px; padding-right: 30px;
+padding-bottom: 20px;
+border: 2px solid gold; border-radius: 20px;}
+
+.Trainer-box video{width: 100%; border-radius: 20px; 
+    border-right: 2px solid gold;
+    border-bottom: 2px solid gold;}
+
+.alligned{
+    display: flex;
+    flex: wrap;
+    gap: 30px;
+}
+.P-MAIN{display: flex;
+gap: 20px;
+color: yellow;}
+
+.trainer-desc{color: white;}
+
+
+/* CARDS */
+
+.BSTSLNG{text-align: center;}
+.BSTSLNG h1{font-size: 100px;}
+
+
+.CRDBG{background-image: url(https://wallpaperset.com/w/full/b/a/6/45477.jpg);
+background-repeat: no-repeat;
+background-size: cover; position: relative;}
+
+.img-float{position: absolute;width: 200px;
+left: 10%;
+animation: floatAnimation 3s ease infinite;
+}
+
+@keyframes floatAnimation {
+
+    0%{transform: translateY(0);}
+
+    50%{transform: translateY(+30px);}
+
+    100%{transform: translateY(0);}
+    
+}
+
+  /* Add hover effect */
+.img-float img:hover {
+    filter: brightness(1.5) saturate(2) hue-rotate(90deg);
+    box-shadow: 0 0 40px rgba(255, 215, 0, 0.8);
+  }
+
+.img-float img{width: 100%;
+     filter: brightness(1.2) saturate(1.5) hue-rotate(45deg);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+    transition: filter 0.3s ease-in-out, box-shadow 0.3s ease-in-out; border-radius: 200px; height: 250px;
+    width: 250px;}
+
+
+ 
+.cards-all{display: flex; justify-content: space-between;
+padding: 20px; gap: 30px;}
+
+.cards{display: flex; flex-wrap: wrap;
+padding-top: 120px;
+gap: 70px;
+justify-content: center;
+}
+
+.card-1{ background-color: rgb(115, 115, 115);
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;}
+
+.card-1:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+    box-shadow: 0 0 10px rgba(255, 217, 0, 0.434); /* Add a shadow on hover */
+}
+.card-2{
+    background-color: rgb(67, 67, 67);
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-2:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+    box-shadow: 0 0 10px rgba(255, 217, 0, 0.434); /* Add a shadow on hover */
+}
+
+.img-box{text-align: center; padding-top: 20px; position: relative;}
+.img-box img{width: 200px; border-radius: 20px;border: 3px solid gold;}
+.img-box #img2{border: none;
+width: 100px;}
+
+.cart-icon2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.cart-icon{position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;}
+
+/* Cart icon visibility on hover */
+.card-1:hover .cart-icon {
+  opacity: 1;
+}
+.card-2:hover .cart-icon2 { 
+     opacity: 1; }
+
+.desc{padding: 10px; color: white;}
+.buynow{text-align: center;}
+#BUY{border-radius: 5px; background-color: black;
+color: white; padding: 10px 50px 10px 50px;
+border: none;transition: 0.3s;}
+#BUY:hover{background-color: gold;
+transform: scale(20px);}
+
+/* FEATURED PROGRAM */
+
+.featured{
+    background-image: url(https://savagebarbell.com/cdn/shop/files/military-discount-banner-02_1600x.jpg?v=1627597070);
+    background-size: cover;
+    padding-top: 150px;
+}
+#FTRH1{color: white;
+font-family: M1;}
+
+#fp{color: white;}
+.ftr-p{display: flex; justify-content: center; gap: 5px;}
+
+.CHANGE-ALLIGN{display: flex;}
+
+.CHANGE-ALLIGN img{width: 45%;}
+
+.txt-Change{padding: 100px;}
+
+.ftr-txt{
+    text-align: center;
+}
+
+.ftr-BOXM{
+    padding: 81px;
+}
+.ftr-box{
+    
+    border-radius: 29px;
+    padding-bottom: 64px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    color: white;
+    background-color: #202020cf;
+    text-align: center;
+    transition: 0.3s;
+}
+.ftr-box:hover{background-color: #363636b2;}
+
+
+.BF-ALLIGN{display: flex;}
+.BF img{width: 45%;}
+
+.BF-TXT{padding: 50px;}
+.aln{display: flex; gap: 10px;}
+
+
+/* PRICING PLANS */
+
+.pricing-main{
+    padding: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.pricing-box{
+    display: flex;
+    justify-content: center;
+    gap: 110px;}
+
+#bsc{
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+    padding: 20px;
+    font-size: 43px;
+    font-family: m3;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;}
+.BASIC{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    width: 300px;
+    height: auto;
+    background-color: #717171;
+    border-radius: 7px;
+    transition: all 0.3s ease 0s;
+}
+.BASIC-TXT{text-align: center; padding: 20px;
+color: white;
+
+}
+
+.BASIC:hover {
+    transform: scale(1.1); /* Scale up the .BASIC element to 1.1 times its original size on hover */
+}
+.BASIC-BENI{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    font-family: m3;
+    border-radius: 9px;
+    background-color: #a3a3a3;
+    display: flex;
+    align-items: baseline;
+    gap: 9px;
+    justify-content: center;
+    margin-bottom: 10px;
+    }
+.BASIC-BENIF{
+    font-family: m3;
+   color: white;
+    border-radius: 9px;
+    display: flex;
+    align-items: baseline;
+    gap: 9px;
+    justify-content: center;
+    }
+
+.STANDARD{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 11px;
+width: 400px; 
+transition: all 0.3s ease;}
+
+.STANDARD:hover {
+    transform: scale(1.2); /* Scale up the .BASIC element to 1.1 times its original size on hover */
+}
+
+#btn-slct{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: white;
+    color: black;
+    border-radius: 16px;
+    padding: 16px;
+    padding-right: 70px;
+    padding-left: 70px;
+    transition: 0.3s;
+    border: none;
+}
+#btn-slct2{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: #363636;
+    color: white;
+    border-radius: 16px;
+    padding: 16px;
+    padding-right: 70px;
+    padding-left: 70px;
+    transition: 0.3s;
+    border: none;
+}
+
+
+#stn{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: #363636;
+    color: white;
+    /* background-color: black; */
+    border-radius: 5px;
+    padding: 22px;
+}
+
+.STANDARD-TXT{text-align: center;
+    padding: 20px;}
+
+.STANDARD-BENI{
+    font-family: m3;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 5px;
+    margin-bottom: 7px;
+    background-color: #55545417;
+    border-radius: 8px;
+    padding: 5px;
+    color: black;}
+
+.STANDARD-BENIF{
+    font-family: 'm3';
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 5px;
+    margin-bottom: 7px;
+    color: rgb(0 0 0);
+    border-radius: 16px;
+    padding: 5px;
+  }
+  .prc-txt{
+    text-align: center;
+    font-family: m3;
+    padding-bottom: 100px;
+  }
+
+
+
+/* TESTIMONIALS */
+
+.TESTIMONIALS{
+    background-image: url(https://wallpapercave.com/wp/wp7578886.jpg);
+}
+.TEST-TXT{
+    width: 40%;
+    padding: 70px;
+}
+.TEST-TXT h4{color: GOLD;}
+.TEST-TXT h1{color: white;}
+.TEST-TXT p{color: white;}
+.TEST-TXT i{color: gold; font-size: 20px;
+margin: 0px 19px 0px 20px;}
+
+
+.STRIPEM{background-color: yellow; width: 100%;
+    height: 10vh; 
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; 
+padding: 15px;}
+.STRIPE{background-color: yellow; width: 100%;
+height: 5vh; 
+box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; 
+ width: 100%;
+ height: 50px;
+position: relative;
+animation: flow 4s linear infinite;
+border-radius: 20px;}
+
+
+
+  /* Footer */
+
+
+.container-footer{
+    background-color: rgb(0, 0, 0);
+}
+
+.fmain{padding: 64px;
+display: flex;
+gap: 100px;
+justify-content: space-around;}
+
+.logo{width: 50%;}
+.logo img{width: 100%;}
+
+
+.c-1{width: 20%;}
+.c-2{padding-top: 60px;}
+.c-3{padding-top: 60px;}
+.c-4{padding-top: 60px;}
+
+.icons{
+    display: flex;
+    gap: 60px;
+    font-size: 49px;
+    padding-top: 25px;
+color: white;}
+
+.c-1 p{color: white;}
+.c-3 p{color: white;}
+.c-2 p{color: white;}
+.c-4 p{color: white;}
+.c-4 h2{color: white;}
+
+.fmain h2{padding-bottom: 30px;}
+
+
+.OH{color: white;}
+.QL{color: white;}
+  
+/* MOBILE */
+
+@media (min-width: 372px) and (max-width: 673px) {
+
+    .mid-txt{text-align: center;}
+    .mid-txt h2{font-size: 40px;}
+.mid-txt h1{font-size: 40px;}
+
+
+.bg{    background-image: url(https://images4.alphacoders.com/805/805233.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; width: 100%;
+padding-top: 120px;
+padding-bottom: 120px;
+padding: 0px;}
+.BS{
+    flex-direction: column;
+    gap: 0px;
+    text-align: center;}
+.BM{
+    flex-direction: column;
+    gap: 0px;
+    text-align: center;}
+
+#ST{font-size: 43px;}
+
+#Be{font-size: 50px;
+display: flex;
+flex-direction: column;}
+
+#btn-JOIN{
+    padding-right: 13px;
+    padding-left: 13px;
+    font-size: 10px;
+    background-color: gold;
+    color: white;
+    border-radius: 16px;
+    transition: 0.3s;
+    border: none;}
+#btn-Watch{
+    font-size: 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 16px;
+    padding: 8px;
+    border: 1px solid gold;
+    transition: 0.3s;}
+    .btns{justify-content: center;}
+
+.charts{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 75px;
+padding-left: 27px;}
+
+.rw2{
+display: flex;
+flex-direction: column;
+gap: 20px;
+color: white;
+}
+.rw3{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.hed{font-size: 15px;}
+.Bed{ font-size: 10px;}
+
+.Benefits{
+    background: url(https://w0.peakpx.com/wallpaper/300/278/HD-wallpaper-gym-weights-bodybuilder-bodybuilding-cardio-dumbell-muscle-running-sweat-weight-workout.jpg);
+}
+.text-bg{ 
+    text-align: center;
+    font-size: 11px;
+    border-radius: 36px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+}
+
+    .txt-1{display: flex;
+        flex-direction: column;}
+    .consultation{
+        background-color: #0000008c;
+        display: flex;
+        border-radius: 29px;
+        gap: 20px;
+        color: white;
+        padding: 28px;}
+        
+.img-box img{width: 100%; border-radius: 20px;border: 3px solid gold;}
+
+.TRAINERS-BG{padding: 40px;}
+.Trainer-box{
+    width: 293px;
+    margin-left: 0px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    border: 2px solid gold;
+    border-radius: 20px;}
+.Trainer-box video{
+    width: 112%;
+    border-radius: 20px;
+    border-right: 2px solid gold;}
+    .alligned{
+        flex-direction: column;
+    }
+.TEST-TXT{
+    width: 100%;
+    padding: 28px;}
+    .P-MAIN{
+        font-size: 11px;
+        display: flex;
+        gap: 10px;
+        color: yellow;}
+
+.ftr-box{
+    border-radius: 29px;
+    padding: 49px;
+    padding-top: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    color: white;
+    background-color: #202020cf;
+    text-align: center;}
+
+.CHANGE-ALLIGN{
+display: flex;
+flex-direction: column;}
+
+.txt-Change{
+ padding: 30px;}
+
+.CHANGE-ALLIGN img{width: 96%;}
+
+.BF-ALLIGN{
+    flex-direction: column;
+}
+.BF-ALLIGN img{
+    width: 86%;
+}
+.BF-TXT{padding: 33px;}
+
+.pricing-box{
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    flex-direction: column;
+    align-items: center;}
+.STANDARD{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 11px;
+    /* width: 400px; */
+    width: 94%;
+    transition: all 0.3s ease;
+}
+.rdd{font-size: 15px;}
+
+.fmain{padding: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;}
+    .c-1{width: 100%;}
+ }
+
+
+/* PC 1024 */
+@media (min-width: 600px) and (max-width: 1024px){
+    .mid-txt h1{
+        
+    font-size: 77px;
+    font-family: M1;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    }
+    .Benefits{background-size: cover;}
+    .Trainer-box{
+        width: 1220px;
+        height: 286px;
+    margin-left: 0;}
+    .STRIPE{
+        background-color: yellow;
+        /* width: 100%; */
+        /* height: 5vh; */
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        width: 100%;
+        height: 26px;
+        position: relative;
+        animation: flow 4s linear infinite;
+        border-radius: 20px;}
+    .TEST-TXT{
+        width: 56%;
+        padding: 70px;}
+    .txt-Change{
+        padding: 56px;}
+    .CHANGE-ALLIGN img{height: 84vh;}
+
+}
+
+/* FOR IPAD */
+
+@media (min-width: 820px) and (max-width: 1180px){
+    .pricing-box{
+        display: flex;
+        justify-content: center;
+        gap: 89px;
+        flex-wrap: wrap;}
+    .ftr-box{gap: 25px;}
+    .Trainer-box{
+        width: 1220px;
+        margin-left: 0;
+        height: 175px;
+    padding-right: 0px;}
+    .alligned{
+        display: flex;
+        align-items: center;
+        gap: 30px;}
+    .Benefits{background-position: center;}
+    .mid-txt h1{font-size: 51px;}
+    .bg{padding: 136px;}
+    #btn-JOIN{
+        font-size: 12px;
+        background-color: gold;
+        color: white;
+        border-radius: 16px;
+        padding: 5px;
+        padding-right: 34px;
+        padding-left: 34px;
+        transition: 0.3s;
+        border: none;
+        margin-top: 15px;}
+    #btn-Watch{
+        font-size: 12px;
+        background-color: transparent;
+        color: white;
+        border-radius: 16px;
+        padding: 4px;
+        padding-right: 37px;
+        padding-left: 37px;
+        border: 1px solid gold;
+        transition: 0.3s;
+        margin-top: 15px}
+    .charts{padding-top: 8vh;}
+    .STRIPE{height: 75px;}
+    .text-bg{width: 62%;}
+    .rw3{
+        display: flex;
+        gap: 59px;}
+    .CHANGE-ALLIGN img{height: 57vh;}
+
+    .fmain{
+        padding: 2px;
+        display: flex;
+        gap: 40px;
+        justify-content: space-around;}
+
+        .icons{
+            display: flex;
+            gap: 60px;
+            font-size: 25px;
+            padding-top: 25px;
+            color: white;}
+
+}
