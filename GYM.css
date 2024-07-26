@@ -842,3 +842,195 @@ flex-direction: column;}
             color: white;}
 
 }
+
+@media (max-width: 320px){
+
+    .mid-txt{text-align: center;}
+    .mid-txt h2{font-size: 40px;}
+.mid-txt h1{font-size: 40px;}
+
+
+.bg{    background-image: url(https://images4.alphacoders.com/805/805233.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; width: 100%;
+padding-top: 120px;
+padding-bottom: 120px;
+padding: 0px;}
+.BS{
+    flex-direction: column;
+    gap: 0px;
+    text-align: center;}
+.BM{
+    flex-direction: column;
+    gap: 0px;
+    text-align: center;}
+
+#ST{font-size: 43px;}
+
+#Be{font-size: 50px;
+display: flex;
+flex-direction: column;}
+
+#btn-JOIN{
+    padding-right: 13px;
+    padding-left: 13px;
+    font-size: 10px;
+    background-color: gold;
+    color: white;
+    border-radius: 16px;
+    transition: 0.3s;
+    border: none;}
+#btn-Watch{
+    font-size: 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 16px;
+    padding: 8px;
+    border: 1px solid gold;
+    transition: 0.3s;}
+    .btns{justify-content: center;}
+
+.charts{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 75px;
+padding-left: 27px;}
+
+.rw2{
+display: flex;
+flex-direction: column;
+gap: 20px;
+color: white;
+}
+.rw3{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.hed{font-size: 15px;}
+.Bed{ font-size: 10px;}
+
+.Benefits{
+    background: url(https://w0.peakpx.com/wallpaper/300/278/HD-wallpaper-gym-weights-bodybuilder-bodybuilding-cardio-dumbell-muscle-running-sweat-weight-workout.jpg);
+}
+.text-bg{ 
+    text-align: center;
+    font-size: 11px;
+    border-radius: 36px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+}
+
+    .txt-1{display: flex;
+        flex-direction: column;}
+    .consultation{
+        background-color: #0000008c;
+        display: flex;
+        border-radius: 29px;
+        gap: 20px;
+        color: white;
+        padding: 28px;
+        flex-wrap: nowrap;
+        flex-direction: column;}
+        
+.img-box img{width: 100%; border-radius: 20px;border: 3px solid gold;}
+
+.services{ padding: 25px;}
+
+.TEST-TXT p{
+    color: white;
+    font-size: 11px;
+}
+
+.TRAINERS-BG{padding: 40px;}
+.Trainer-box{
+    width: 241px;
+    margin-left: 0px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    border: 2px solid gold;
+    border-radius: 20px;}
+.Trainer-box video{
+    width: 112%;
+    border-radius: 20px;
+    border-right: 2px solid gold;}
+    .alligned{
+        flex-direction: column;
+    }
+
+
+.btext h2{
+    font-size: 16px;
+}
+
+.TEST-TXT{
+    width: 100%;
+    padding: 28px;}
+    .P-MAIN{
+        font-size: 11px;
+        display: flex;
+        gap: 10px;
+        color: yellow;}
+
+.ftr-BOXM{
+    padding: 20px;
+}
+.ftr-box{
+    border-radius: 29px;
+    padding: 49px;
+    padding-top: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    color: white;
+    background-color: #202020cf;
+    text-align: center;}
+
+.CHANGE-ALLIGN{
+display: flex;
+flex-direction: column;}
+
+.txt-Change{
+ padding: 30px;}
+
+.CHANGE-ALLIGN img{width: 96%;}
+
+.BF-ALLIGN{
+    flex-direction: column;
+}
+.BF-ALLIGN img{
+    width: 99%;
+}
+.BF-TXT{padding: 33px;}
+
+.pricing-box{
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    flex-direction: column;
+    align-items: center;}
+.STANDARD{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 11px;
+    /* width: 400px; */
+    width: 94%;
+    transition: all 0.3s ease;
+}
+.rdd{font-size: 15px;}
+
+.fmain{padding: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;}
+    .c-1{width: 100%;}
+ }
+
